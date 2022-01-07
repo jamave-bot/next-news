@@ -1,11 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import styles from '../styles/EOM.module.css'
+import { Toolbar } from '../components/toolbar'
 
 export function EOM({employee}) {
     console.log(employee)
     return (
         <div className='page-container'>
+            <Toolbar />
             <div className={styles.main}>
                 <h1>Employee of the Month</h1>
 
