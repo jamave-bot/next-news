@@ -10,7 +10,7 @@ export const Toolbar = () =>{
             <div onClick={()=>router.push('/')}>Home</div>
             <div onClick={()=>router.push('/feed/1')}>Feed</div>
             <div onClick={()=>router.push('/eom')}>EOM</div>
-            <div onClick={()=> window.location.href='https://twitter.com/Bobert_Boo'}>Twitter</div>
+            <div onClick={()=> window.location.href='https://jasonvelarde.com/'}>Website</div>
         </div>
     )
 };
